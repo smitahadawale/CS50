@@ -1,0 +1,12 @@
+1.<stdint.h> is a header file declaring various integer types with certain guaranteed widths.
+2.Using these types allows to write implementation- and plattform-independent code
+3.A BYTE defined as having 8 bit, DWORD and LONG having 32bit and WORD is defined with 16 bit. 
+4.Thos bits should read 0x42 0x4d
+5.bfSize holds the file size of the bitmap file, while biSize is defined as the size of the Bitmapinfoheader structure.
+6.A negative value for biHeight suggests that the vertical orientation of the image is upside-down.
+7.This is defined in biBitCount.
+8.This can happen if the user running the copy programm has no write permission for the directory she wants to copy the file t
+9.We want to copy one individual structure per read, e.g. a complete BITMAPINFOHEADER or an individual RGBTRIPLE.
+10.padding will have a value of 3.
+11.fseek is used to move a position pointer through a file stream.
+12.SEEK_CUR indicates the current position of the position pointer
